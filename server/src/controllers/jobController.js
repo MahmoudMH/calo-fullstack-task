@@ -17,9 +17,12 @@ exports.getJobs = (req, res) => {
 
 exports.getJobById = (req, res) => {
     const job = jobService.getJobById(req.params.id);
-    if (job) {
+    
+    if(!job) res.status(404).json({ error: "Job not found" });
+
+    if (job.status === 'resolved') {
         res.json(job);
     } else {
-        res.status(404).json({ error: "Job not found" });
-    }
+        res.json({ status: `Job status is ${job.status}`})
+    } 
 };

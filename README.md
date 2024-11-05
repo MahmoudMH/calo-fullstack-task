@@ -47,7 +47,6 @@ This project is a full-stack application with a React frontend and an Express ba
 5. **Set up environment variables**:
 
    ```bash
-   PORT=3030
    UNSPLASH_CLIENT_ID=your_unsplash_api_client_id
    ```
 
@@ -68,6 +67,7 @@ This project is a full-stack application with a React frontend and an Express ba
 ### API Endpoints
 
  - **GET** /api/jobs - Retrieves all jobs
+ - **GET** /api/jobs/{id} - Return job status or resolved job by id
  - **POST** /api/jobs - Creates a new job (retrieves an Unsplash image after a random delay)
  - **GET** /api/sse/jobs-updates - Server-Sent Events (SSE) for real-time job updates
 
