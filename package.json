@@ -1,0 +1,19 @@
+{
+    "name": "calo-fullstack-task",
+    "version": "1.0.0",
+    "description": "Fullstack task submitted for Calo",
+    "main": "index.js",
+    "scripts": {
+      "client": "npm start --prefix client",
+      "server": "npm start --prefix server",
+      "start": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "dependencies": {
+      "concurrently": "^7.0.0"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "author": "Mahmoud Ihmiad",
+    "license": "MIT"
+  }
