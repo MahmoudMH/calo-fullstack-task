@@ -20,7 +20,7 @@ This project is a full-stack application with a React frontend and an Express ba
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/calo-fullstack-task.git
+   git clone https://github.com/MahmoudMH/calo-fullstack-task.git
    cd calo-fullstack-task
    ```
 
