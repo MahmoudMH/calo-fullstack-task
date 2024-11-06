@@ -2,6 +2,8 @@
 
 This project is a full-stack application with a React frontend and an Express backend that handles job creation and retrieval from the Unsplash API. The application uses React Query for data fetching, caching, and retry logic, ensuring robust handling of network instability.
 
+Note: This application requires an Unsplash API client ID to fetch images. You can either set this up by creating an Unsplash account and generating your own client ID or contact me for assistance in obtaining one.
+
 ## Table of Contents
 
 - [Setup Instructions](#setup-instructions)
@@ -45,6 +47,8 @@ This project is a full-stack application with a React frontend and an Express ba
    ```
 
 5. **Set up environment variables**:
+
+  Note: This application requires an Unsplash API client ID to fetch images. You can either set this up by creating an Unsplash account and generating your own client ID or contact me for assistance in obtaining one.
 
    ```bash
    UNSPLASH_CLIENT_ID=your_unsplash_api_client_id
